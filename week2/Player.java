@@ -11,7 +11,7 @@ public class Player {
     //当前位置
     private String current_position;
     
-    void cick(Ball ball){
+    void kick(Ball ball){
         System.out.println( name+"kicks"+ball);
     }
 }

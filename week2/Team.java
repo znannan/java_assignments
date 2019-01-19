@@ -4,4 +4,8 @@ public class Team {
     private Coach[] assistantCoaches;
     private Player[] players;
     private Player[] substitutes;
+
+    void kickBall(){
+        System.out.purintln("Ball is flying now! Catch it!");
+    }
 }
